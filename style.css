@@ -1,0 +1,211 @@
+ @import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
+                
+
+:root{
+    --text-color: #514949;
+    --red: #e7332b
+
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid teal; */
+  font-family: 'Averta-Regular', sans-serif;
+  /* overflow: hidden; */
+}
+body,
+html {
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+.centering{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.text-center{
+    text-align: center;
+}
+.welcome-container{
+    background-image: url(hero-bg.svg);
+    height: 100vh;
+}
+.welcome-container .image-container{
+    margin: 0 0 4.3rem;
+    padding: 4.3rem 0 0;
+    width: 100%;
+}
+.welcome-container .image-container img{
+    margin: 0 auto;
+}
+.welcome-container .text-container{
+     justify-content: center;
+     width: 50%;
+     font-family: sans-serif;
+}
+.welcome-container .text-container h2{
+    color: var(--text-color);
+    font-size: 32px;
+    margin-bottom: 1.2em;
+}
+.welcome-container .text-container p{
+    color: var(--text-color);
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--red);
+    padding: 0;
+    margin: 0;
+}
+.welcome-container .buttons-container{
+    margin-top: 6em;
+}
+.welcome-container .buttons-container .my-btn{
+    padding: 11px 28px;
+    font-size: 16px;
+    border: none;
+    
+}
+.btn-red{
+    background-color: var(--red);
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-red:hover{
+    background-color: #fff;
+    color: var(--red);
+    outline: 2px solid var(--red);
+    transition: 0.4ms;
+}
+.btn-red-outline{
+    background-color: #fff;
+    color: var(--red);
+    outline: 1px solid var(--red);
+    cursor: pointer;
+}
+.btn-red-outline:hover{
+    background-color: var(--red);
+    color: #fff;
+    transition: 0.4ms;
+}
+.programs{
+    height: auto;
+    z-index: -222;
+   
+}
+.programs-container .heading{
+    color: var(--red);
+    font-size: 14px;
+    margin: 10em 0 .5em;
+    width: 97%;
+    
+}
+.programs-container .slogan{
+    color: var(--text-color);
+    font-size: 24px;
+    margin: .5em 0 2.5em;
+    width: 97%;
+}
+.my-programs{
+    margin: 0 auto;
+    max-width: 1240px !important;
+    width: 100%;
+    padding:0 15px 0 15px;
+}
+.program{
+    padding: 61px 47px 82px 36px;
+    width: calc(100%/3);
+    background-color: #fffafa;
+    position: relative;
+}
+.row{
+    display: flex;
+    gap: 2em;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 222;
+}
+.programs-training{
+    text-align: left !important;
+}
+.left{
+    display: inline;
+    width: 100%;
+    position: absolute;
+    top: -75px;
+    left: -120px;
+    z-index: -3;
+    /* margin: 0 auto; */
+}
+.right{
+    display: inline;
+    width: 100%;
+    position: absolute;
+    top: -75px;
+    right: -120px;
+    z-index: -3;
+    /* margin: 0 auto; */
+}
+.programs-content{
+    width: 100%;
+
+}
+
+.programs-content img{
+    margin-bottom: 3em;
+}
+.programs-content p{
+    margin-bottom: 1em;
+    line-height: 2em;
+    text-align: left;
+    color: var(--text-color);
+}
+
+
+.footer{
+    margin: 13rem 3.5rem 0;
+}
+.footer-flex-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+    align-items: flex-start;
+    width: 100%;
+}
+.footer-flex-container h3{
+    margin-bottom: .5em;
+    color: var(--text-color);
+}
+.footer-flex-container p{
+    margin-bottom: 1em;
+}
+.footer-flex-container .address{
+    color: var(--text-color);
+}
+.separator-div{
+    width: 100%;
+}
+.separator{
+    margin: 1em;
+    opacity: 0.2;
+    border: 1px solid var(--text-color);
+    width: 100%;
+}
+.copyright{
+    color: var(--text-color);
+    font-weight: 700;
+    margin: 2em 0 1em;
+    padding: 0 0 5em;
+    width: 100%;
+}
+
+/* ---------------------------------------------------------- */
