@@ -79,23 +79,27 @@ a{
     cursor: pointer;
     margin-right: 20px;
 }
+
 .btn-red:hover{
     background-color: #fff;
     color: var(--red);
-    outline: 2px solid var(--red);
+    outline: 1px solid var(--red);
     transition: 0.4ms;
 }
+
 .btn-red-outline{
     background-color: #fff;
     color: var(--red);
     outline: 1px solid var(--red);
     cursor: pointer;
 }
+
 .btn-red-outline:hover{
     background-color: var(--red);
     color: #fff;
     transition: 0.4ms;
 }
+
 .programs{
     height: auto;
     z-index: -222;
